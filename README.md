@@ -1,10 +1,8 @@
-# k3s HA Cheat Sheet (wop)
-
 Random notes how to copy'n'paste together a k3s HA cluster.
 
 Deploy 3 vps' within a private network with following init scripts:
 
-The first server's (aks master or control-plane) init:
+The first server's (aka master or control-plane) init:
 
 ```
 curl -sfL https://get.k3s.io | \
